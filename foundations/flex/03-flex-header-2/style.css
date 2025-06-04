@@ -12,6 +12,10 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  justify-content: space-between; /* Space between items */
+  align-items: center; /* Center items vertically */
+  padding: 8px 16px;
 }
 
 .profile-image {
@@ -45,4 +49,12 @@ a {
 
 ul {
   list-style-type: none;
+}
+
+.links {
+  display: flex; /* Makes the list items display in a row */
+  gap: 16px; /* Adds space between the list items */
+  margin: 0; /* Removes default margin */
+  padding: 0; /* Removes default padding */
+  margin-right: auto;
 }
