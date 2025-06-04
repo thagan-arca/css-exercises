@@ -1,0 +1,9 @@
+div {
+  font-size: 32px;
+  background-color: red;
+  color: white;
+  align-self: center;
+  font-weight: bold;
+}
+
+/* (1) Completion of styling on div using type selector and external CSS */
