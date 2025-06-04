@@ -14,29 +14,25 @@ body {
   background: #e3f4ff;
   font-size: 16px; /* - The title of the card uses a 16px font. */
   padding: 8px; /* - There are 8px between the title text and the edge of the title section. */
-
+  margin-bottom: 8px; /* - There is 8px between the edge of the card and the blue sections. */
 }
 
 .content {
   background: #e3f4ff;
   padding: 16px 8px; /* - The content section has 16px space on the top and bottom, and 8px on either side. */
+  margin-bottom: 8px;
 }
 
 .button-container {
   background: #e3f4ff;
   padding: 8px;
-  align-items: center; /* - Everything inside the `.button-container` section is centered, and there is 8px padding. */
-  margin-top: 8px; /* - There is 8px between the edge of the card and the blue sections. */
+  text-align: center; /* - Everything inside the `.button-container` section is centered, and there is 8px padding. */
 }
 
 button {
   background: white;
   border: 1px solid #eee;
-  align-self: center;
+  display: block; /* - The button is a block element, so it takes up the full width of its container. */
+  margin: 0 auto; /* - The button is centered horizontally in the `.button-container` section. */
   padding: 8px 24px; /* - The Big Button has 24px space on the sides, and 8px on top and bottom. */
-}
-
-div {
-  display: flex; /* - The Big Button is centered on its own line. */
-  flex-direction: column;
 }
