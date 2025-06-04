@@ -3,11 +3,11 @@ button {
   font-size: 28px;
 }
 
-#first {
+.first {
   background-color: #000000;
   color: white;
 }
 
-#second {
+.second {
   background-color: rgb(250, 255, 97);
 }
