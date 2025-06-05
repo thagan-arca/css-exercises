@@ -39,6 +39,7 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+  margin-right: 16px;
 }
 
 a {
@@ -57,4 +58,12 @@ ul {
   margin: 0; /* Removes default margin */
   padding: 0; /* Removes default padding */
   margin-right: auto;
+}
+
+.links #link-one {
+  margin-left: 16px;
+}
+
+.button .notifications {
+  margin-right: 16px;
 }
